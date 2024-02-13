@@ -52,6 +52,7 @@ export default function App() {
           : friend
       )
     );
+    setSelectdFriend(null);
   }
   return (
     <div className="app">
